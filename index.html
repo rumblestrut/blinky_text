@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Blink</title>
+	<style type="text/css">
+@-webkit-keyframes blink {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+blink {
+  -webkit-animation-name: blink;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s; 
+}
+	</style>
+</head>
+<body>
+<h1><blink>Hello, $name!</blink></h1>
+</body>
+</html>
